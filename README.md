@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+파이어베이스 : 웹사이트를 통해 제공해주는 백엔드 서비스. aws의 amplify 경쟁 상대
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cloud Firestore : 데이터베이스
+Cloud Function : Serverless Function (aws의 람다)
+Cloud Storage : 정적 파일 저장소 (aws의 s3)
+Hosting : 웹 어플리케이션 배포
+Authentication : 인증
 
-## Available Scripts
+Performance monitoring : 성능 보여줌
+Test Lab : 웹사이트를 기기별로 테스트할 수 있게 해줌
+Cloud messaging : 알림
 
-In the project directory, you can run:
+Realtime Database : Firestore 이전 원조 데이터베이스
 
-### `npm start`
+—————————
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+파이어베이스를 언제 사용해야 하는가
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 실제 비즈니스에는 적합하지 않음. 사용자 정보도, 데이터베이스도 모두 나의 것이 아닌 구글의 것이다.
+- 아이디어나 프로젝트를 구상하는 단계에서 빠르게 구축하고 서비스하고 싶을때 파이어베이스가 유용하다.
 
-### `npm test`
+———————
+부분 무료
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 한달에 유저 10000명 까지 무료 인증 가능
+- 데이터 1GB까지 무료
+- Document 조회 하루 50000건 무료
